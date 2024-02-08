@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body id="Edit">
+
+<h1>Color Simulator</h1>
+
+<script>
+function YellowFunc() {
+document.getElementById("Edit").style.backgroundColor = "yellow";
+document.getElementById("Button1").style.backgroundColor = "yellow";
+document.getElementById("Button2").style.backgroundColor = "yellow"; 
+document.getElementById("Button3").style.backgroundColor = "yellow"; 
+document.getElementById("Button4").style.backgroundColor = "yellow"; 
+}
+function RedFunc() {
+    document.getElementById("Edit").style.backgroundColor = "red";
+document.getElementById("Button1").style.backgroundColor = "red";
+document.getElementById("Button2").style.backgroundColor = "red"; 
+document.getElementById("Button3").style.backgroundColor = "red"; 
+document.getElementById("Button4").style.backgroundColor = "red"; 
+}
+function GreenFunc() {
+    document.getElementById("Edit").style.backgroundColor = "green";
+document.getElementById("Button1").style.backgroundColor = "green";
+document.getElementById("Button2").style.backgroundColor = "green"; 
+document.getElementById("Button3").style.backgroundColor = "green"; 
+document.getElementById("Button4").style.backgroundColor = "green"; 
+    
+}
+function BlueFunc() {
+    document.getElementById("Edit").style.backgroundColor = "blue";
+document.getElementById("Button1").style.backgroundColor = "blue";
+document.getElementById("Button2").style.backgroundColor = "blue"; 
+document.getElementById("Button3").style.backgroundColor = "blue"; 
+document.getElementById("Button4").style.backgroundColor = "blue"; 
+}
+</script>
+
+<button id="Button1" type="button" onclick="YellowFunc()">Yellow</button>
+<button id="Button2" type="button" onclick="RedFunc()">Red</button>
+<button id="Button3" type="button" onclick="GreenFunc()">Green</button>
+<button id="Button4" type="button" onclick="BlueFunc()">Blue</button>
+</body>
+</html>
